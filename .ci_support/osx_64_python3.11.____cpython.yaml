@@ -10,10 +10,12 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+clhep:
+- 2.4.7.1
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '19'
+- '21'
 fmt:
 - '12.1'
 hdf5:

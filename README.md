@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/remage-feedstoc
 
 Home: https://github.com/legend-exp/remage
 
-Package license: LGPL-3.0-only AND GPL-3.0-only
+Package license: GPL-3.0-or-later
 
 Summary: Simulation framework for low-background physics experiments
 
@@ -99,31 +99,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `remage` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install remage
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install remage
 ```
 
-It is possible to list all of the versions of `remage` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add remage
+# for installing globally
+pixi global install remage
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `remage` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search remage --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search remage --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search remage --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -135,6 +177,8 @@ mamba repoquery whoneeds remage --channel conda-forge
 # List dependencies of `remage`:
 mamba repoquery depends remage --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -205,4 +249,7 @@ Feedstock Maintainers
 
 * [@ManuelHu](https://github.com/ManuelHu/)
 * [@gipert](https://github.com/gipert/)
+
+
+<!-- dummy commit to enable rerendering -->
 
