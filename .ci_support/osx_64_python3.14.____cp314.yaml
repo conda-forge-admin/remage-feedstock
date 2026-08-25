@@ -11,7 +11,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 clhep:
-- 2.4.7.2
+- 2.4.7.1
 cxx_compiler:
 - clangxx
 cxx_compiler_version:

@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/remage-feedstoc
 
 Home: https://github.com/legend-exp/remage
 
-Package license: LGPL-3.0-only AND GPL-3.0-only
+Package license: GPL-3.0-or-later
 
 Summary: Simulation framework for low-background physics experiments
 
